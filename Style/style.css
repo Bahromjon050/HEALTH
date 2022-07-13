@@ -1,0 +1,647 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: auto;
+    display: block;
+    max-width: 1440px;
+}
+.navbar_fon{
+    height: 900px;
+    background: url('../img/Vector\ 4.png') center center / cover no-repeat;
+}
+.navbar{
+    padding: 17px 0;
+}
+.nav_header{
+    display: flex;
+    justify-content: end;
+}
+.nav_head_ul{
+    gap: 35px;
+    display: flex;
+    align-items: center;
+}
+.nav_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_item{
+    gap: 45px;
+    display: flex;
+    align-items: center;
+}
+.nav_link,.nav_head_link{
+    list-style: none;
+}
+.nav_head_link a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #ffffffb2;
+    text-decoration: none;
+}
+.nav_head_link a:hover{
+    color: #FFF;
+}
+.nav_link > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffffb2;
+    opacity: 0.9;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    transition: all .4s ease-in-out;
+}
+.nav_link > a:hover{
+    transition-delay: .2s;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border-bottom: 1px solid #FFF;
+}
+.siin,.siup{
+    cursor: pointer;
+    padding: 9px 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    background: none;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+.siin{
+    border: 1px solid #ffffff00;
+}
+.siin:hover{
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 102, 0.164);
+}
+.siup{
+    margin-left: 10px;
+}
+.siup:hover{
+    background: rgba(0, 0, 102, 0.164);
+}
+
+/* 
+        All 
+*/
+.yon{
+    padding: 0 150px;
+}
+.padding{
+    padding: 0 100px;
+}
+.all_h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #010B19;
+}
+.all_p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #010B19;
+    opacity: 0.7;
+}
+.all_mt{
+    margin-top: 120px;
+}
+.all_p_mt{
+    margin: 30px 0 60px;
+}
+
+
+/* 
+        LOVE YOUR SOUL
+*/
+.soul{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.soul_header h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.soul_header h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 61px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.soul_header h2{
+    padding: 18px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.soul_header p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.9;
+    color: #fff;
+}
+.sour_btn{
+    gap: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+.sour_btn button{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 27px;
+    background: none;
+}
+.app_btn{
+    border: 1px solid #FFFFFF;
+}
+.watch_btn{
+    gap: 17px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff00;
+}
+.sour_btn button:hover{
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 102, 0.164);
+}
+.soulsp{
+    text-decoration: underline;
+}
+
+/* 
+        SOUL IMG
+*/
+.soul_img img{
+    width: 450px;
+}
+
+/* 
+        Provides our best services
+*/
+.provides{
+    margin-top: 250px;
+}
+.provides > p{
+    padding: 30px 0 60px;
+}
+.provides_cards{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.card_pro{
+    gap: 20px;
+    padding: 43px;
+    display: flex;
+    background: #184E61;
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.06);
+    border-radius: 10px;
+}
+.card_pro h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.card_pro p{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+/* 
+        Have Top Specialist Doctors
+*/
+.doctors_cards{
+    gap: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4,auto);
+}
+.card_dr{
+    width: 263px;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+.card_dr:hover .card_body{
+    transform: translateY(0);
+}
+.card_dr:hover .tel{
+    transition-delay: .7s;
+    transform: translateX(0);
+}
+.card_dr:hover .body_img img{
+    transition-delay: calc(var(--b) * 0.2s);
+    transform: translateX(0);
+}
+.card_img{
+    width: 100%;
+    height: 100%;
+}
+.card_img img{
+    width: 100%;
+    height: 310px;
+}
+.card_body{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .8s ease-in-out;
+    transform: translateY(390px);
+    position: absolute;
+}
+.body_img{
+    padding: 20px;
+}
+.body_img img{
+    cursor: pointer;
+    display: block;
+    margin-top: 14px;
+    transition: all .4s ease-in-out;
+    transform: translateX(-55px);
+}
+.tel{
+    transform: translateX(-157px);
+    transition: all .5s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+}
+.tel > img{
+    cursor: pointer;
+    z-index: 999;
+}
+.vector{
+    z-index: -1;
+    width: 324px;
+    height: 251px;
+    position: relative;
+    transform: translateX(-30px) translateY(-60px);
+    background: url('../img/Vector\ 1.png') center / cover no-repeat;
+}
+.vector > h3{
+    padding-top: 125px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.vector > p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+
+/* 
+        Available to weekly Doctors
+*/
+.weekly{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(270deg, #0A4FB6 -9.87%, #28859A 111.47%);
+}
+.weekly_h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.weekly_p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.tab_item{
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+}
+.tab_li{
+    list-style: none;
+}
+.tab_li{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.tab_btn{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #c5c5c5c0;
+    opacity: 0.85;
+    background: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1cc19800;
+    transition: all .2s ease-in-out;
+}
+.tab_btn.activ{
+    color: #fff;
+    border-bottom: 2px solid #1CC198;
+}
+.op_ul{
+    gap: 0;
+    width: 230px;
+    height: 350px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #FFFFFF;
+}
+.op_li{
+    list-style: none;
+}
+.op_btn1{
+    border-radius: 10px 10px 0 0;
+}
+.op_btn2{
+    border-radius:0 0 10px 10px;
+}
+.Sunday{
+    cursor: pointer;
+    width: 222px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.9;
+    background: none;
+    transition: all .4s ease-in-out;
+}
+.Sunday:hover{
+    color: #FFFFFF;
+    background: #184E61;
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.06);
+}
+.Sunday:focus{
+    color: #FFFFFF;
+    background: #184E61;
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.06);
+}
+
+
+
+/* 
+        TAB CARD
+*/
+.tab_body{
+    gap: 30px;
+    display: grid;
+    margin-top: 30px;
+    align-items: center;
+    grid-template-columns: repeat(2,auto);
+}
+.tab_cards{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    display: none;
+}
+.tab_card{
+    cursor: pointer;
+    width: 273px;
+    height: 219px;
+    overflow: hidden;
+    position: relative;
+}
+.tab_card:hover .tab_card_body{
+    top: 0;
+}
+.tab_card_header{
+    width: 100%;
+    height: 100%;
+}
+.tab_card_body{
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .7s ease-in-out;
+    padding: 117px 20px 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+}
+.tab_card_body h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.tab_card_body h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.tab_card_body p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.85;
+}
+#ur_img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+         What Our Patients Say
+*/
+.kr_cards{
+    position: relative;
+    margin-top: 60px;
+    padding: 0 130px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,auto);
+}
+.kr_card1{
+    opacity: 0;
+    display: none;
+    width: 360px;
+    padding: 42px;
+    background: #ffffff;
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.151);
+    border-radius: 10px;
+    transition: all .6s ease-in-out;
+}
+.kr_card2{
+    opacity: 0;
+    display: none;
+    width: 360px;
+    padding: 42px;
+    background: #ffffff;
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.151);
+    border-radius: 10px;
+    transition: all .6s ease-in-out;
+}
+.kr_card3{
+    opacity: 0;
+    display: none;
+    width: 360px;
+    padding: 42px;
+    background: #ffffff;
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.151);
+    border-radius: 10px;
+    transition: all .6s ease-in-out;
+}
+.kr_card1:hover,.kr_card2:hover,.kr_card3:hover{
+    box-shadow: 0px 8px 30px rgba(1, 11, 25, 0.507);
+}
+.kr_card1.active{
+    display: block;
+    opacity: 1;
+}
+.kr_card2.active{
+    display: block;
+    opacity: 1;
+}
+.kr_card3.active{
+    display: block;
+    opacity: 1;
+}
+.kr_p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #010B19;
+}
+.prof{
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.pr_p h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #010B19;
+}
+.pr_p h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #010B19;
+}
+.pr_span{
+    overflow: hidden;
+}
+.pr_span img{
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+.pr_span img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1px 30px 1px rgb(1, 71, 30);
+}
+
+.kr_btn1{
+    cursor: pointer;
+    background: none;
+}
+.kr_btn2{
+    cursor: pointer;
+    background: none;
+}
+.kr_btn2 img{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    margin-top: 100pc;
+}
